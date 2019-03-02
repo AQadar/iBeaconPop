@@ -12,7 +12,6 @@
 		C0352E801AAF385200F6A01A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0352E7E1AAF385200F6A01A /* Main.storyboard */; };
 		C0352E821AAF385200F6A01A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0352E811AAF385200F6A01A /* Images.xcassets */; };
 		C0352E851AAF385200F6A01A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0352E831AAF385200F6A01A /* LaunchScreen.xib */; };
-		C0352E911AAF385200F6A01A /* BeaconPopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0352E901AAF385200F6A01A /* BeaconPopTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +33,6 @@
 		C0352E811AAF385200F6A01A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C0352E841AAF385200F6A01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C0352E8A1AAF385200F6A01A /* BeaconPopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeaconPopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0352E8F1AAF385200F6A01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0352E901AAF385200F6A01A /* BeaconPopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconPopTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				C0352E771AAF385200F6A01A /* BeaconPop */,
-				C0352E8D1AAF385200F6A01A /* BeaconPopTests */,
 				C0352E761AAF385200F6A01A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,23 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				C0352E791AAF385200F6A01A /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C0352E8D1AAF385200F6A01A /* BeaconPopTests */ = {
-			isa = PBXGroup;
-			children = (
-				C0352E901AAF385200F6A01A /* BeaconPopTests.swift */,
-				C0352E8E1AAF385200F6A01A /* Supporting Files */,
-			);
-			path = BeaconPopTests;
-			sourceTree = "<group>";
-		};
-		C0352E8E1AAF385200F6A01A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C0352E8F1AAF385200F6A01A /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -227,7 +206,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0352E911AAF385200F6A01A /* BeaconPopTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
